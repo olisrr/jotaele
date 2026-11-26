@@ -1,3 +1,54 @@
+.faq[data-astro-cid-hemr5th4] {
+  width: min(900px, 100% - 40px);
+  margin: 0 auto 110px;
+}
+.faq[data-astro-cid-hemr5th4] h2[data-astro-cid-hemr5th4] {
+  font: 300 32px/1.2 var(--font);
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.faq-a[data-astro-cid-hemr5th4] h2[data-astro-cid-hemr5th4] {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.faq-list[data-astro-cid-hemr5th4] {
+  border-top: 1px solid #e4e1dc;
+}
+details[data-astro-cid-hemr5th4] {
+  border-bottom: 1px solid #e4e1dc;
+}
+summary[data-astro-cid-hemr5th4] {
+  cursor: pointer;
+  font: 500 16px/1.4 var(--font);
+  color: var(--ink);
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 0;
+  list-style: none;
+  display: flex;
+}
+summary[data-astro-cid-hemr5th4]::-webkit-details-marker {
+  display: none;
+}
+summary[data-astro-cid-hemr5th4]:after {
+  content: "+";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+}
+details[data-astro-cid-hemr5th4][open] summary[data-astro-cid-hemr5th4]:after {
+  content: "–";
+}
+.faq-a[data-astro-cid-hemr5th4] summary[data-astro-cid-hemr5th4] {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+details[data-astro-cid-hemr5th4] p[data-astro-cid-hemr5th4] {
+  font: 400 15px/1.7 var(--font);
+  color: #3c3836;
+  max-width: 70ch;
+  padding: 0 0 22px;
+}
 .theme-b {
   --cream: #f5f3ef;
   --muted: #6b6764;
@@ -87,9 +138,13 @@
   position: relative;
   overflow: hidden;
 }
-.b-hero[data-astro-cid-nitip4ji] img[data-astro-cid-nitip4ji] {
-  object-fit: cover;
-  width: 100%;
+.b-hero-videos[data-astro-cid-nitip4ji] {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  height: 100%;
+  display: grid;
+}
+.b-hero-videos[data-astro-cid-nitip4ji] video {
   height: 100%;
 }
 .b-hero[data-astro-cid-nitip4ji]:after {
@@ -387,6 +442,12 @@
   .b-hero-text[data-astro-cid-nitip4ji] {
     width: calc(100% - 40px);
     padding-bottom: 28px;
+  }
+  .b-hero-videos[data-astro-cid-nitip4ji] {
+    grid-template-columns: 1fr;
+  }
+  .b-hero-videos[data-astro-cid-nitip4ji] video:nth-child(n + 2) {
+    display: none;
   }
   .b-story[data-astro-cid-nitip4ji],
   .b-wide-text[data-astro-cid-nitip4ji],

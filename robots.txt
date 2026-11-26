@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /b/
 Disallow: /qr/
 
 Sitemap: https://jotaelerestaurante.com/sitemap.xml

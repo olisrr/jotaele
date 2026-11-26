@@ -47,7 +47,7 @@ AddDefaultCharset utf-8
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   # Propuestas internas: fuera de Google
-  <If "%{REQUEST_URI} =~ m#^/(b|qr)/#">
+  <If "%{REQUEST_URI} =~ m#^/qr/#">
     Header set X-Robots-Tag "noindex"
   </If>
 </IfModule>
@@ -59,3 +59,6 @@ AddDefaultCharset utf-8
 
 # La página de recetas se quitó (los vídeos están en la carta)
 RewriteRule ^recetas/?$ /carta/ [L,R=301]
+
+# Solo hay una home: la antigua propuesta /b/ va a la portada
+RewriteRule ^b/?$ / [L,R=301]

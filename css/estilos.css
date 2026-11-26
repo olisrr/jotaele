@@ -1243,6 +1243,23 @@ address {
 .mn-videos {
   margin: 2px -20px 10px;
 }
+.legal-text {
+  font: 400 14px/1.8 var(--font);
+  color: #3c3836;
+}
+.legal-text p {
+  margin-bottom: 14px;
+}
+.legal-text h2,
+.legal-text h3,
+.legal-text h4 {
+  font: 600 15px var(--font);
+  color: var(--black);
+  margin: 24px 0 8px;
+}
+.legal-text a {
+  text-decoration: underline;
+}
 .rb[data-astro-cid-vbnoxhe6] {
   z-index: 60;
   font-family: var(--font);
