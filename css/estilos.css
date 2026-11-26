@@ -1319,3 +1319,9 @@ address {
     padding: 0 8px;
   }
 }
+
+/* «Reserva ya» abre la página de reservas (CoverManager) */
+a.rb-title[data-astro-cid-vbnoxhe6] { text-decoration: none; cursor: pointer; }
+a.rb-title[data-astro-cid-vbnoxhe6]:hover { text-decoration: underline; text-underline-offset: 4px; }
+.rb-arrow[data-astro-cid-vbnoxhe6] { font-weight: 400; }
+@media (max-width: 700px) { .rb-arrow[data-astro-cid-vbnoxhe6] { display: none; } }
