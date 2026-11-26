@@ -1,0 +1,40 @@
+# Restaurante Jota Ele
+
+> Restaurante en la Plaza de Santa Isabel de Murcia (España) desde 1981. Cocina de producto local y de mercado entre tradición y evolución, gran barra y bodega con vinos de pequeños viticultores. Recomendado por la Guía Repsol.
+
+## Datos clave
+
+- Dirección: Plaza de Santa Isabel, 6, 30004 Murcia, Región de Murcia, España
+- Teléfono y reservas: +34 968 220 730
+- Reserva online: https://jotaelerestaurante.com/reservas/ (módulo de CoverManager: https://www.covermanager.com/reservation/module_restaurant/restaurante-jota-ele/spanish)
+- Reservas por WhatsApp: +34 648 25 19 74 (https://wa.me/34648251974). También para pedir los menús de Navidad.
+- Email: franjotaele@gmail.com
+- Mapa: https://www.google.com/maps/search/?api=1&query=Restaurante+Jota+Ele+Plaza+de+Santa+Isabel+6+Murcia
+- Instagram: https://www.instagram.com/restaurantejotaele/
+- Al frente: Francisco González, que lidera el negocio desde 1986 y es miembro fundador de la Asociación de Sumilleres de la Región de Murcia
+- Servicios: comedor, barra, comida para llevar ("En casa") y cheque regalo "Experiencia Jota Ele" (50 €, menú para dos)
+- Horario: confirmar por teléfono
+
+## Páginas
+
+- [Inicio](https://jotaelerestaurante.com/): historia, cocina, vinos, comida para llevar y contacto
+- [Carta](https://jotaelerestaurante.com/carta/): sugerencias, carta de vinos y Experiencia Jota Ele
+- [Carta en Markdown](https://jotaelerestaurante.com/carta.md): la misma carta en texto plano
+- [Menús de Navidad](https://jotaelerestaurante.com/navidad/): menús de temporada disponibles
+- [Regalo](https://jotaelerestaurante.com/regalo/): Experiencia Jota Ele, menú para dos por 50 €
+- [Reservas](https://jotaelerestaurante.com/reservas/)
+- [English](https://jotaelerestaurante.com/en/) · [Menu in English](https://jotaelerestaurante.com/en/menu/)
+
+## Historia
+
+Jota Ele se inaugura en 1981 convirtiéndose muy pronto en el referente social y gastronómico del momento, gracias a su arquitectura de vanguardia, su manera de interpretar la cocina y su enclave en la céntrica Plaza de Santa Isabel.
+
+Será en 1986 cuando Francisco González, que ya formaba parte del equipo desde sus inicios, lidere el futuro del negocio creando un nuevo y propio estilo de cocina.
+
+## Cocina
+
+Hoy día, Jota Ele es un restaurante basado en la calidad del producto, una cocina que busca el equilibrio entre tradición y evolución. Una cocina honesta y de calidad donde se potencia el uso de materia prima local y de cercanía, adquirida diariamente en nuestros mercados.
+
+## Vinos
+
+Cada vino de nuestra carta es fruto de la tradición que ha marcado un camino y un estilo, el resultado de la inquietud por descubrir pequeños viticultores que cuidan cada detalle y que hacen únicos cada uno de los vinos con su forma de entender la vida. Francisco González, como apasionado del vino y miembro fundador de la Asociación de Sumilleres de la Región de Murcia, reúne en la cava del restaurante numerosas referencias que despiertan en él su interés y pasión por la enología. Vinos que potencian el sabor de una cocina muy personal y que invitan a ser disfrutados entre todos.
