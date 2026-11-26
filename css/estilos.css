@@ -1227,6 +1227,12 @@ address {
 .gift-buy-2 {
   margin-top: 10px;
 }
+.vs-gap {
+  padding-top: 110px;
+}
+.theme-a .vs-gap + .vinos {
+  margin-top: 0;
+}
 .rb[data-astro-cid-vbnoxhe6] {
   z-index: 60;
   font-family: var(--font);
@@ -1248,6 +1254,17 @@ address {
   text-transform: uppercase;
   white-space: nowrap;
   margin: 0 10px 0 0;
+}
+a[data-astro-cid-vbnoxhe6].rb-title {
+  cursor: pointer;
+  text-decoration: none;
+}
+a[data-astro-cid-vbnoxhe6].rb-title:hover {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+.rb-arrow[data-astro-cid-vbnoxhe6] {
+  font-weight: 400;
 }
 .rb-btn[data-astro-cid-vbnoxhe6] {
   height: 52px;
@@ -1297,6 +1314,9 @@ address {
     margin: 0 auto 0 0;
     font-size: 19px;
   }
+  .rb-arrow[data-astro-cid-vbnoxhe6] {
+    display: none;
+  }
   .rb-btn[data-astro-cid-vbnoxhe6] {
     gap: 5px;
     height: 48px;
@@ -1319,9 +1339,3 @@ address {
     padding: 0 8px;
   }
 }
-
-/* «Reserva ya» abre la página de reservas (CoverManager) */
-a.rb-title[data-astro-cid-vbnoxhe6] { text-decoration: none; cursor: pointer; }
-a.rb-title[data-astro-cid-vbnoxhe6]:hover { text-decoration: underline; text-underline-offset: 4px; }
-.rb-arrow[data-astro-cid-vbnoxhe6] { font-weight: 400; }
-@media (max-width: 700px) { .rb-arrow[data-astro-cid-vbnoxhe6] { display: none; } }
