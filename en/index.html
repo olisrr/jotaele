@@ -240,75 +240,138 @@
       </a>
       <nav class="b-nav" aria-label="Principal" data-astro-cid-nitip4ji>
         <a href="/en/menu/" data-astro-cid-nitip4ji>Menu</a>
-        <a href="/en/menu/#vinos" data-astro-cid-nitip4ji>Wines</a>
+        <a class="b-nav-wide" href="/en/menu/#vinos" data-astro-cid-nitip4ji>Wines</a>
         <a href="/navidad/" data-astro-cid-nitip4ji>Christmas</a>
-        <a href="#en-casa" data-astro-cid-nitip4ji>Take away</a>
-        <button type="button" data-open="regala" data-astro-cid-nitip4ji>Gift Jotaele</button>
-        <a href="/" data-astro-cid-nitip4ji>ES</a>
+        <a class="b-nav-wide" href="#en-casa" data-astro-cid-nitip4ji>Take away</a>
+        <a href="/regalo/" data-astro-cid-nitip4ji>Gift</a>
+        <a href="/" hreflang="es" data-astro-cid-nitip4ji>ES</a>
       </nav>
       <a class="b-book" href="/reservas/" data-astro-cid-nitip4ji>Book a table</a>
     </header>
     <main data-astro-cid-nitip4ji>
       <section class="b-hero" data-astro-cid-nitip4ji>
-        <div class="b-hero-videos" data-astro-cid-nitip4ji>
-          <video
-            class="av"
-            data-src="/videos/entrecot-m.mp4"
-            poster="/videos/entrecot.jpg"
-            muted
-            loop
-            playsinline
-            preload="none"
-            disablepictureinpicture
-            disableremoteplayback
-            aria-label="Entrecôte"
-            title="Entrecôte"
-            data-astro-cid-agptqd4c
-          ></video>
-          <script type="module">
-            var e = window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,
-              t = new IntersectionObserver(
-                (e) => {
-                  for (let t of e) {
-                    let e = t.target;
-                    t.isIntersecting
-                      ? (!e.src && e.dataset.src && (e.src = e.dataset.src), (e.muted = !0), e.play().catch(() => {}))
-                      : e.paused || e.pause();
-                  }
-                },
-                { rootMargin: `150px 0px`, threshold: 0.15 },
-              );
-            e || document.querySelectorAll(`video.av`).forEach((e) => t.observe(e));
-          </script>
-          <video
-            class="av"
-            data-src="/videos/canelon-de-aguacate-m.mp4"
-            poster="/videos/canelon-de-aguacate.jpg"
-            muted
-            loop
-            playsinline
-            preload="none"
-            disablepictureinpicture
-            disableremoteplayback
-            aria-label="Avocado cannelloni"
-            title="Avocado cannelloni"
-            data-astro-cid-agptqd4c
-          ></video>
-          <video
-            class="av"
-            data-src="/videos/para-empezar-m.mp4"
-            poster="/videos/para-empezar.jpg"
-            muted
-            loop
-            playsinline
-            preload="none"
-            disablepictureinpicture
-            disableremoteplayback
-            aria-label="To start"
-            title="To start"
-            data-astro-cid-agptqd4c
-          ></video>
+        <div class="hv" data-astro-cid-6gowgm6i>
+          <div
+            class="hv-slot hv-slot-0"
+            data-lista="entrecot,de-la-sarten,mini-hamburguesa,de-cuchara-y-horno,la-guarnicion,espinacas-a-la-catalana,canelon-de-aguacate,para-empezar"
+            data-astro-cid-6gowgm6i
+          >
+            <video
+              class="hv-v on"
+              poster="/videos/entrecot.jpg"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-label="Entrecôte"
+              data-astro-cid-6gowgm6i
+            ></video>
+            <video
+              class="hv-v"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-hidden="true"
+              data-astro-cid-6gowgm6i
+            ></video>
+          </div>
+          <div
+            class="hv-slot hv-slot-1"
+            data-lista="canelon-de-aguacate,para-empezar,entrecot,de-la-sarten,mini-hamburguesa,de-cuchara-y-horno,la-guarnicion,espinacas-a-la-catalana"
+            data-astro-cid-6gowgm6i
+          >
+            <video
+              class="hv-v on"
+              poster="/videos/canelon-de-aguacate.jpg"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-label="Avocado cannelloni"
+              data-astro-cid-6gowgm6i
+            ></video>
+            <video
+              class="hv-v"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-hidden="true"
+              data-astro-cid-6gowgm6i
+            ></video>
+          </div>
+          <div
+            class="hv-slot hv-slot-2"
+            data-lista="para-empezar,entrecot,de-la-sarten,mini-hamburguesa,de-cuchara-y-horno,la-guarnicion,espinacas-a-la-catalana,canelon-de-aguacate"
+            data-astro-cid-6gowgm6i
+          >
+            <video
+              class="hv-v on"
+              poster="/videos/para-empezar.jpg"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-label="To start"
+              data-astro-cid-6gowgm6i
+            ></video>
+            <video
+              class="hv-v"
+              muted
+              playsinline
+              preload="none"
+              disablepictureinpicture
+              aria-hidden="true"
+              data-astro-cid-6gowgm6i
+            ></video>
+          </div>
         </div>
+        <script type="module">
+          var e = window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,
+            t = 7;
+          function n(e) {
+            if (e.dataset.vivo) return;
+            e.dataset.vivo = `1`;
+            let n = (e.dataset.lista || ``).split(`,`),
+              [r, i] = Array.from(e.querySelectorAll(`video`)),
+              a = 0,
+              o = r,
+              s = i,
+              c,
+              l = (e) => `/videos/${n[e % n.length]}-m.mp4`,
+              u = (e, t) => {
+                (e.src = l(t)), (e.poster = `/videos/${n[t % n.length]}.jpg`), (e.preload = `auto`), e.load();
+              },
+              d = () => {
+                clearTimeout(c), (a += 1);
+                let e = s,
+                  t = () => {
+                    e.play().catch(() => {}), e.classList.add(`on`), o.classList.remove(`on`);
+                    let t = o;
+                    setTimeout(() => t.pause(), 900), (s = t), (o = e), f(), u(s, a + 1);
+                  };
+                e.readyState >= 3 ? t() : e.addEventListener(`canplay`, t, { once: !0 });
+              },
+              f = () => {
+                let e = isFinite(o.duration) && o.duration > 0 ? o.duration : t;
+                c = window.setTimeout(d, Math.min(e, t) * 1e3);
+              };
+            u(o, 0), o.play().catch(() => {}), o.addEventListener(`loadedmetadata`, f, { once: !0 }), u(s, 1);
+          }
+          if (!e) {
+            let e = new IntersectionObserver(
+              (e) => {
+                for (let t of e) {
+                  let e = t.target;
+                  t.isIntersecting && e.offsetParent !== null && n(e);
+                }
+              },
+              { threshold: 0.1 },
+            );
+            document.querySelectorAll(`.hv-slot`).forEach((t) => e.observe(t));
+          }
+        </script>
         <div class="b-hero-text" data-astro-cid-nitip4ji>
           <p class="b-eyebrow" data-astro-cid-nitip4ji>Santa Isabel Square · Murcia · Since 1981</p>
           <h1 data-astro-cid-nitip4ji>
@@ -389,20 +452,33 @@
           </a>
         </div>
         <div class="b-chef" data-astro-cid-nitip4ji>
-          <video
-            class="av"
-            data-src="/videos/entrecot-m.mp4"
-            poster="/videos/entrecot.jpg"
-            muted
-            loop
-            playsinline
-            preload="none"
-            disablepictureinpicture
-            disableremoteplayback
-            aria-label="Entrecôte"
-            title="Entrecôte"
-            data-astro-cid-agptqd4c
-          ></video>
+          <div class="hv hv-uno" data-astro-cid-6gowgm6i>
+            <div
+              class="hv-slot hv-slot-1"
+              data-lista="mini-hamburguesa,de-cuchara-y-horno,la-guarnicion,espinacas-a-la-catalana,canelon-de-aguacate,para-empezar,entrecot,de-la-sarten"
+              data-astro-cid-6gowgm6i
+            >
+              <video
+                class="hv-v on"
+                poster="/videos/mini-hamburguesa.jpg"
+                muted
+                playsinline
+                preload="none"
+                disablepictureinpicture
+                aria-label="Mini burger"
+                data-astro-cid-6gowgm6i
+              ></video>
+              <video
+                class="hv-v"
+                muted
+                playsinline
+                preload="none"
+                disablepictureinpicture
+                aria-hidden="true"
+                data-astro-cid-6gowgm6i
+              ></video>
+            </div>
+          </div>
         </div>
       </section>
       <section class="vm vm-b" aria-label="From our kitchen" data-astro-cid-ldnoeruj>
@@ -426,6 +502,23 @@
                     title="Avocado cannelloni"
                     data-astro-cid-agptqd4c
                   ></video>
+                  <script type="module">
+                    var e = window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,
+                      t = new IntersectionObserver(
+                        (e) => {
+                          for (let t of e) {
+                            let e = t.target;
+                            t.isIntersecting
+                              ? (!e.src && e.dataset.src && (e.src = e.dataset.src),
+                                (e.muted = !0),
+                                e.play().catch(() => {}))
+                              : e.paused || e.pause();
+                          }
+                        },
+                        { rootMargin: `150px 0px`, threshold: 0.15 },
+                      );
+                    e || document.querySelectorAll(`video.av`).forEach((e) => t.observe(e));
+                  </script>
                 </div>
               </li>
               <li class="vm-item" data-astro-cid-ldnoeruj>
