@@ -56,3 +56,6 @@ AddDefaultCharset utf-8
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/plain text/markdown application/xml image/svg+xml application/ld+json
 </IfModule>
+
+# La página de recetas se quitó (los vídeos están en la carta)
+RewriteRule ^recetas/?$ /carta/ [L,R=301]

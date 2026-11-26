@@ -201,8 +201,8 @@
 }
 .b-chef[data-astro-cid-nitip4ji] {
   aspect-ratio: 4/5;
-  object-fit: cover;
   width: 100%;
+  overflow: hidden;
 }
 .b-strip[data-astro-cid-nitip4ji] {
   scroll-snap-type: x mandatory;

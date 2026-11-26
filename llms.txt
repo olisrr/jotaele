@@ -22,7 +22,6 @@
 - [Carta en Markdown](https://jotaelerestaurante.com/carta.md): la misma carta en texto plano
 - [Menús de Navidad](https://jotaelerestaurante.com/navidad/): menús de temporada disponibles
 - [Regalo](https://jotaelerestaurante.com/regalo/): Experiencia Jota Ele, menú para dos por 50 €
-- [Recetas en vídeo](https://jotaelerestaurante.com/recetas/): cómo se preparan el canelón de aguacate, el entrecot, la mini hamburguesa y otros platos
 - [Reservas](https://jotaelerestaurante.com/reservas/)
 - [English](https://jotaelerestaurante.com/en/) · [Menu in English](https://jotaelerestaurante.com/en/menu/)
 

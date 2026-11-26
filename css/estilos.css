@@ -929,7 +929,7 @@ address {
 }
 .mn-tabs a {
   font: 500 14px var(--font);
-  color: #8a8683;
+  color: #5f5b58;
   border-bottom: 2px solid #0000;
   flex: none;
   padding: 15px 0 13px;
@@ -1129,7 +1129,7 @@ address {
 }
 .mn-crumbs {
   font: 400 12px var(--font);
-  color: #8a8683;
+  color: #5f5b58;
   padding-top: 6px;
 }
 .mn-crumbs a {
@@ -1199,13 +1199,13 @@ address {
   grid-template-columns: 1.5fr 1fr 1fr;
 }
 .mn-btn-wa {
-  color: #1f8a4c;
-  border-color: #1f8a4c;
+  color: #1a7a43;
+  border-color: #1a7a43;
 }
 .mn-btn-wa-dark {
   color: #fff;
-  background: #1f8a4c;
-  border-color: #1f8a4c;
+  background: #1a7a43;
+  border-color: #1a7a43;
 }
 .wa-box {
   font: 400 15px/1.6 var(--font);
@@ -1218,7 +1218,7 @@ address {
 }
 .wa-link {
   font: 500 15px var(--font);
-  color: #1f8a4c;
+  color: #1a7a43;
   border-bottom: 1px solid;
   margin-top: 18px;
   padding-bottom: 2px;
@@ -1232,6 +1232,16 @@ address {
 }
 .theme-a .vs-gap + .vinos {
   margin-top: 0;
+}
+.sv {
+  aspect-ratio: 4/5;
+  background: #e9e6e1;
+  max-width: 420px;
+  margin: 22px 0 6px;
+  overflow: hidden;
+}
+.mn-videos {
+  margin: 2px -20px 10px;
 }
 .rb[data-astro-cid-vbnoxhe6] {
   z-index: 60;
@@ -1287,11 +1297,11 @@ a[data-astro-cid-vbnoxhe6].rb-title:hover {
 }
 .rb-wa[data-astro-cid-vbnoxhe6] {
   color: #fff;
-  background: #1f8a4c;
-  border-color: #1f8a4c;
+  background: #1a7a43;
+  border-color: #1a7a43;
 }
 .rb-wa[data-astro-cid-vbnoxhe6]:hover {
-  background: #18703d;
+  background: #145f34;
 }
 .rb-call[data-astro-cid-vbnoxhe6]:hover {
   color: #fff;

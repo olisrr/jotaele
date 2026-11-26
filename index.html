@@ -190,85 +190,90 @@
         max-width: 70ch;
         padding: 0 0 22px;
       }
-      .vs[data-astro-cid-uaesi2m5] {
-        margin: 0 auto 110px;
-      }
-      .vs-head[data-astro-cid-uaesi2m5] {
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 16px;
-        width: min(1200px, 100% - 40px);
-        margin: 0 auto 22px;
-        display: flex;
-      }
-      .vs-head[data-astro-cid-uaesi2m5] h2[data-astro-cid-uaesi2m5] {
-        font: 300 clamp(30px, 4vw, 48px) / 1.1 var(--font);
-        color: var(--black);
-      }
-      .vs-a[data-astro-cid-uaesi2m5] .vs-head[data-astro-cid-uaesi2m5] h2[data-astro-cid-uaesi2m5] {
-        text-transform: uppercase;
-        font-size: 32px;
-        font-weight: 500;
-      }
-      .vs-all[data-astro-cid-uaesi2m5] {
-        font: 500 15px var(--font);
-        color: var(--black);
-        white-space: nowrap;
-        border-bottom: 1px solid;
-        padding-bottom: 2px;
-      }
-      .vs-row[data-astro-cid-uaesi2m5] {
-        scroll-snap-type: x mandatory;
-        scrollbar-width: thin;
-        gap: 14px;
-        padding: 0 max(20px, 50% - 600px) 8px;
-        scroll-padding-inline: max(20px, 50% - 600px);
-        display: flex;
-        overflow-x: auto;
-      }
-      .vs-item[data-astro-cid-uaesi2m5] {
-        scroll-snap-align: start;
-        flex: 0 0 clamp(200px, 22vw, 270px);
-        margin: 0;
-      }
-      .vs-frame[data-astro-cid-uaesi2m5] {
-        aspect-ratio: 9/16;
-        background: #111;
-        overflow: hidden;
-      }
-      .vs-frame[data-astro-cid-uaesi2m5] video[data-astro-cid-uaesi2m5] {
+      .av[data-astro-cid-agptqd4c] {
         object-fit: cover;
+        pointer-events: none;
+        background: #e9e6e1;
         width: 100%;
         height: 100%;
         display: block;
       }
-      figcaption[data-astro-cid-uaesi2m5] {
-        font-family: var(--font);
-        padding-top: 12px;
+      .vm[data-astro-cid-ldnoeruj] {
+        margin: 0 0 8px;
       }
-      figcaption[data-astro-cid-uaesi2m5] strong[data-astro-cid-uaesi2m5] {
-        font: 500 15px/1.3 var(--font);
+      .vm-title[data-astro-cid-ldnoeruj] {
+        width: min(1200px, 100% - 40px);
+        font: 300 clamp(26px, 3.4vw, 40px) / 1.1 var(--font);
         color: var(--black);
-        display: block;
+        margin: 0 auto 16px;
       }
-      .vs-a[data-astro-cid-uaesi2m5] figcaption[data-astro-cid-uaesi2m5] strong[data-astro-cid-uaesi2m5] {
+      .vm-a[data-astro-cid-ldnoeruj] .vm-title[data-astro-cid-ldnoeruj] {
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 22px;
+        font-weight: 500;
       }
-      figcaption[data-astro-cid-uaesi2m5] span[data-astro-cid-uaesi2m5] {
-        font: 400 13px/1.4 var(--font);
-        color: #6b6764;
-        margin-top: 3px;
+      .vm-viewport[data-astro-cid-ldnoeruj] {
+        overflow: hidden;
+      }
+      .vm-track[data-astro-cid-ldnoeruj] {
+        width: max-content;
+        animation: 70s linear infinite vm-pasar;
+        display: flex;
+      }
+      .vm-viewport[data-astro-cid-ldnoeruj]:hover .vm-track[data-astro-cid-ldnoeruj] {
+        animation-play-state: paused;
+      }
+      .vm-set[data-astro-cid-ldnoeruj] {
+        gap: 10px;
+        margin: 0;
+        padding: 0 10px 0 0;
+        list-style: none;
+        display: flex;
+      }
+      .vm-item[data-astro-cid-ldnoeruj] {
+        flex: none;
+        width: 132px;
+      }
+      .vm-frame[data-astro-cid-ldnoeruj] {
+        aspect-ratio: 9/16;
+        background: #e9e6e1;
+        overflow: hidden;
+      }
+      .vm-cap[data-astro-cid-ldnoeruj] {
+        font: 500 11px/1.3 var(--font);
+        color: #4a4643;
+        padding-top: 6px;
         display: block;
       }
-      @media (width<=640px) {
-        .vs-head[data-astro-cid-uaesi2m5] {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 8px;
+      .vm-a[data-astro-cid-ldnoeruj] .vm-cap[data-astro-cid-ldnoeruj] {
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      .vm-menu[data-astro-cid-ldnoeruj] .vm-item[data-astro-cid-ldnoeruj] {
+        width: 104px;
+      }
+      @media (width>=900px) {
+        .vm-item[data-astro-cid-ldnoeruj] {
+          width: 168px;
         }
-        .vs-item[data-astro-cid-uaesi2m5] {
-          flex-basis: 62vw;
+        .vm-menu[data-astro-cid-ldnoeruj] .vm-item[data-astro-cid-ldnoeruj] {
+          width: 118px;
+        }
+      }
+      @keyframes vm-pasar {
+        0% {
+          transform: translate(0);
+        }
+        to {
+          transform: translate(-50%);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .vm-track[data-astro-cid-ldnoeruj] {
+          animation: none;
+        }
+        .vm-viewport[data-astro-cid-ldnoeruj] {
+          overflow-x: auto;
         }
       }
     </style>
@@ -327,6 +332,7 @@
               src="/img/restaurante_jotaele_plato_17.webp"
               alt="Plato de Jota Ele 1"
               loading="eager"
+              fetchpriority="high"
               decoding="async"
             />
             <img
@@ -495,14 +501,14 @@
           <img class="ico ico-aceitunas" src="/img/aceitunas.svg" alt="" loading="lazy" />
         </div>
         <p class="calidad-note">
-          <span>*Según la Guía Repsol 2020. Ver reseña</span>
+          <span>*Según la Guía Repsol 2020.</span>
           <a
             class="btn btn-sm"
             href="https://www.guiarepsol.com/es/fichas/restaurante/jota-ele-40497/"
             target="_blank"
             rel="noopener"
           >
-            Aquí
+            Ver reseña
           </a>
         </p>
       </section>
@@ -609,162 +615,322 @@
       </section>
       <!-- Recetas en vídeo (Polimake) -->
       <div class="vs-gap">
-        <section class="vs vs-a" aria-labelledby="vs-title" data-astro-cid-uaesi2m5>
-          <div class="vs-head" data-astro-cid-uaesi2m5>
-            <h2 id="vs-title" data-astro-cid-uaesi2m5>De nuestra cocina</h2>
-            <a class="vs-all" href="/recetas/" data-astro-cid-uaesi2m5>
-              Ver todas las recetas
-              <span aria-hidden="true" data-astro-cid-uaesi2m5>→</span>
-            </a>
-          </div>
-          <div class="vs-row" data-astro-cid-uaesi2m5>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/canelon-de-aguacate.mp4"
-                  poster="/videos/canelon-de-aguacate.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="Canelón de aguacate: Relleno de atún rojo"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>Canelón de aguacate</strong>
-                <span data-astro-cid-uaesi2m5>Relleno de atún rojo</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/para-empezar.mp4"
-                  poster="/videos/para-empezar.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="Para empezar: Tomate, tartar de atún y el crujiente"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>Para empezar</strong>
-                <span data-astro-cid-uaesi2m5>Tomate, tartar de atún y el crujiente</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/entrecot.mp4"
-                  poster="/videos/entrecot.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="Entrecot: Por fuera hecho, por dentro rosa"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>Entrecot</strong>
-                <span data-astro-cid-uaesi2m5>Por fuera hecho, por dentro rosa</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/de-la-sarten.mp4"
-                  poster="/videos/de-la-sarten.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="De la sartén: Croquetas, buñuelos y chipirones"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>De la sartén</strong>
-                <span data-astro-cid-uaesi2m5>Croquetas, buñuelos y chipirones</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/mini-hamburguesa.mp4"
-                  poster="/videos/mini-hamburguesa.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="Mini hamburguesa: Pan brioche y cebolla confitada"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>Mini hamburguesa</strong>
-                <span data-astro-cid-uaesi2m5>Pan brioche y cebolla confitada</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/de-cuchara-y-horno.mp4"
-                  poster="/videos/de-cuchara-y-horno.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="De cuchara y horno: Cochinillo y canelón"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>De cuchara y horno</strong>
-                <span data-astro-cid-uaesi2m5>Cochinillo y canelón</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/la-guarnicion.mp4"
-                  poster="/videos/la-guarnicion.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="La guarnición: También se pela a mano"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>La guarnición</strong>
-                <span data-astro-cid-uaesi2m5>También se pela a mano</span>
-              </figcaption>
-            </figure>
-            <figure class="vs-item" data-astro-cid-uaesi2m5>
-              <div class="vs-frame" data-astro-cid-uaesi2m5>
-                <video
-                  src="/videos/espinacas-a-la-catalana.mp4"
-                  poster="/videos/espinacas-a-la-catalana.jpg"
-                  preload="none"
-                  playsinline
-                  controls
-                  aria-label="Espinacas a la catalana: Cebolla, pasas y espinacas"
-                  data-astro-cid-uaesi2m5
-                ></video>
-              </div>
-              <figcaption data-astro-cid-uaesi2m5>
-                <strong data-astro-cid-uaesi2m5>Espinacas a la catalana</strong>
-                <span data-astro-cid-uaesi2m5>Cebolla, pasas y espinacas</span>
-              </figcaption>
-            </figure>
+        <section class="vm vm-a" aria-label="De nuestra cocina" data-astro-cid-ldnoeruj>
+          <h2 class="vm-title" data-astro-cid-ldnoeruj>De nuestra cocina</h2>
+          <div class="vm-viewport" data-astro-cid-ldnoeruj>
+            <div class="vm-track" data-astro-cid-ldnoeruj>
+              <ul class="vm-set" data-astro-cid-ldnoeruj>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/canelon-de-aguacate-s.mp4"
+                      poster="/videos/canelon-de-aguacate.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Canelón de aguacate: Relleno de atún rojo"
+                      title="Canelón de aguacate: Relleno de atún rojo"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                    <script type="module">
+                      var e = window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,
+                        t = new IntersectionObserver(
+                          (e) => {
+                            for (let t of e) {
+                              let e = t.target;
+                              t.isIntersecting
+                                ? (!e.src && e.dataset.src && (e.src = e.dataset.src),
+                                  (e.muted = !0),
+                                  e.play().catch(() => {}))
+                                : e.paused || e.pause();
+                            }
+                          },
+                          { rootMargin: `150px 0px`, threshold: 0.15 },
+                        );
+                      e || document.querySelectorAll(`video.av`).forEach((e) => t.observe(e));
+                    </script>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/para-empezar-s.mp4"
+                      poster="/videos/para-empezar.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Para empezar: Tomate, tartar de atún y el crujiente"
+                      title="Para empezar: Tomate, tartar de atún y el crujiente"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/entrecot-s.mp4"
+                      poster="/videos/entrecot.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Entrecot: Por fuera hecho, por dentro rosa"
+                      title="Entrecot: Por fuera hecho, por dentro rosa"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/de-la-sarten-s.mp4"
+                      poster="/videos/de-la-sarten.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="De la sartén: Croquetas, buñuelos y chipirones"
+                      title="De la sartén: Croquetas, buñuelos y chipirones"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/mini-hamburguesa-s.mp4"
+                      poster="/videos/mini-hamburguesa.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Mini hamburguesa: Pan brioche y cebolla confitada"
+                      title="Mini hamburguesa: Pan brioche y cebolla confitada"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/de-cuchara-y-horno-s.mp4"
+                      poster="/videos/de-cuchara-y-horno.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="De cuchara y horno: Cochinillo y canelón"
+                      title="De cuchara y horno: Cochinillo y canelón"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/la-guarnicion-s.mp4"
+                      poster="/videos/la-guarnicion.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="La guarnición: También se pela a mano"
+                      title="La guarnición: También se pela a mano"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/espinacas-a-la-catalana-s.mp4"
+                      poster="/videos/espinacas-a-la-catalana.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Espinacas a la catalana: Cebolla, pasas y espinacas"
+                      title="Espinacas a la catalana: Cebolla, pasas y espinacas"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+              </ul>
+              <ul class="vm-set" aria-hidden="true" data-astro-cid-ldnoeruj>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/canelon-de-aguacate-s.mp4"
+                      poster="/videos/canelon-de-aguacate.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Canelón de aguacate: Relleno de atún rojo"
+                      title="Canelón de aguacate: Relleno de atún rojo"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/para-empezar-s.mp4"
+                      poster="/videos/para-empezar.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Para empezar: Tomate, tartar de atún y el crujiente"
+                      title="Para empezar: Tomate, tartar de atún y el crujiente"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/entrecot-s.mp4"
+                      poster="/videos/entrecot.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Entrecot: Por fuera hecho, por dentro rosa"
+                      title="Entrecot: Por fuera hecho, por dentro rosa"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/de-la-sarten-s.mp4"
+                      poster="/videos/de-la-sarten.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="De la sartén: Croquetas, buñuelos y chipirones"
+                      title="De la sartén: Croquetas, buñuelos y chipirones"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/mini-hamburguesa-s.mp4"
+                      poster="/videos/mini-hamburguesa.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Mini hamburguesa: Pan brioche y cebolla confitada"
+                      title="Mini hamburguesa: Pan brioche y cebolla confitada"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/de-cuchara-y-horno-s.mp4"
+                      poster="/videos/de-cuchara-y-horno.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="De cuchara y horno: Cochinillo y canelón"
+                      title="De cuchara y horno: Cochinillo y canelón"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/la-guarnicion-s.mp4"
+                      poster="/videos/la-guarnicion.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="La guarnición: También se pela a mano"
+                      title="La guarnición: También se pela a mano"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+                <li class="vm-item" data-astro-cid-ldnoeruj>
+                  <div class="vm-frame" data-astro-cid-ldnoeruj>
+                    <video
+                      class="av"
+                      data-src="/videos/espinacas-a-la-catalana-s.mp4"
+                      poster="/videos/espinacas-a-la-catalana.jpg"
+                      muted
+                      loop
+                      playsinline
+                      preload="none"
+                      disablepictureinpicture
+                      disableremoteplayback
+                      aria-label="Espinacas a la catalana: Cebolla, pasas y espinacas"
+                      title="Espinacas a la catalana: Cebolla, pasas y espinacas"
+                      data-astro-cid-agptqd4c
+                    ></video>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
-        <script type="module">
-          document
-            .querySelectorAll(`.vs video`)
-            .forEach((e) =>
-              e.addEventListener(`play`, () =>
-                document.querySelectorAll(`.vs video`).forEach((t) => t !== e && t.pause()),
-              ),
-            );
-        </script>
       </div>
       <!-- Vinos -->
       <section class="vinos wrap">
